@@ -64,7 +64,7 @@ bool check(string s)
 }
 int main()
 {
-    string brackets = "})]";
+    string brackets = "{(([])[])[]]}";
     if (check(brackets) == 1)
     {
         cout << "The brackets are balanced" << endl;
